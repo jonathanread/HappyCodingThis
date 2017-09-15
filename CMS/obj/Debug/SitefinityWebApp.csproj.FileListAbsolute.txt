@@ -1,0 +1,434 @@
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\SitefinityWebApp.ResourcePackages.Bootstrap.pdb
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\SitefinityWebApp.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\SitefinityWebApp.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\SitefinityWebApp.pdb
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\WindowsAzureTelemetryEvents.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\EnvDTE.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\WindowsAzureEventSource.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\stdole.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\AntiXssLibrary.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Autofac.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Autofac.Integration.WebApi.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\CsvHelper.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Elasticsearch.Net.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Nest.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\HtmlAgilityPack.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\HtmlSanitizationLibrary.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Practices.ServiceLocation.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.WindowsAzure.Storage.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Data.Edm.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Data.OData.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Data.Services.Client.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.OData.Core.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.OData.Edm.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Cors.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.FileSystems.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Jwt.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.WsFederation.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Owin.StaticFiles.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Microsoft.Spatial.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Ninject.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ServiceStack.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ServiceStack.Common.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ServiceStack.Redis.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ServiceStack.Text.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Spatial.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Http.Cors.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Http.Owin.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Http.Tracing.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.DigitalExperienceCloud.Client.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Blogs.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Comments.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.ContentBlock.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.ContentBlock.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.DynamicContent.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.DynamicContent.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.EmailCampaigns.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Events.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.InlineClientAssets.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Lists.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Navigation.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Navigation.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.News.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.News.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Publishing.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.SocialShare.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.SocialShare.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Identity.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Media.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Search.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Search.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Forms.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Card.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Data.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Web.Api.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Ninject.Web.Common.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.OpenAccess.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.OpenAccess.35.Extensions.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.OpenAccess.40.Extensions.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Reporting.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Reporting.OpenXmlRendering.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Reporting.XpsRendering.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.ReportViewer.WebForms.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Amazon.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.AmazonCloudSearch.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.AmazonCloudSearch.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Packaging.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Audit.Elasticsearch.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Azure.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Azure.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.DataIntelligenceConnector.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Diagnostics.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Diagnostics.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Taxonomies.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Comments.Impl.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Comments.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Comments.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Dashboard.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Dashboard.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.MarketoConnector.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.MarketoConnector.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Model.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Mvc.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Mvc.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.RecurrentRules.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Resources.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Resources.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SalesForceConnector.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SalesForceConnector.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Documents.Impl.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Documents.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Events.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Statistics.Impl.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Statistics.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Connectivity.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Connectivity.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Personalization.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Personalization.Impl.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Personalization.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.RecycleBin.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.RecycleBin.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.DropboxLibraries.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.DropboxLibraries.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Documents.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.ContentModules.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.ContentModules.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Ecommerce.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Ecommerce.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.EloquaConnector.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Forums.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Forums.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Search.Impl.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Search.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Search.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Authentication.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Authentication.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SharepointConnector.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SharepointConnector.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SitemapGenerator.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Http.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Contracts.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Module.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Module.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Zip.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.CodeSync.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Translations.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Translations.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Utilities.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SiteSync.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SiteSync.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Notifications.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Notifications.Impl.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Notifications.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.RecycleBin.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.RecycleBin.Impl.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.RecycleBin.Impl.dll.config
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Web.UI.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Controls.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Data.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.Fixed.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.Core.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.Flow.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Windows.Zip.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Statistics.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\Twitterizer2.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\AngleSharp.xml
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\de\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\es\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\fr\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\it\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ja\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ko\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ru\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\zh-Hans\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\zh-Hant\Microsoft.OData.Core.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\de\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\es\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\fr\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\it\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ja\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ko\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ru\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\zh-Hans\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\zh-Hant\Microsoft.OData.Edm.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\de\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\es\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\fr\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\it\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ja\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ko\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\ru\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\zh-Hans\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\bin\zh-Hant\Microsoft.Spatial.resources.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.csproj.CoreCompileInputs.cache
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.dll
+C:\inetpub\wwwroot\Sitefinity\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.pdb
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\SitefinityWebApp.ResourcePackages.Bootstrap.pdb
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\SitefinityWebApp.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\SitefinityWebApp.pdb
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\WindowsAzureTelemetryEvents.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\EnvDTE.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\WindowsAzureEventSource.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\stdole.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\AntiXssLibrary.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Autofac.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Autofac.Integration.WebApi.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\CsvHelper.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Elasticsearch.Net.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Nest.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Newtonsoft.Json.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\HtmlAgilityPack.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\HtmlSanitizationLibrary.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Data.Edm.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Data.OData.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Data.Services.Client.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.OData.Core.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.OData.Edm.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Cors.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.FileSystems.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.Security.WsFederation.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Owin.StaticFiles.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Microsoft.Spatial.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Ninject.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ServiceStack.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ServiceStack.Common.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ServiceStack.Redis.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ServiceStack.Text.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Spatial.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Http.Cors.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Helpers.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Http.Owin.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Http.Tracing.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Mvc.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Razor.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.WebPages.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.DigitalExperienceCloud.Client.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Blogs.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Comments.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.ContentBlock.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.ContentBlock.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.DynamicContent.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.DynamicContent.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.EmailCampaigns.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Events.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.InlineClientAssets.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Lists.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Navigation.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Navigation.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.News.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.News.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Publishing.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.SocialShare.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.SocialShare.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Identity.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Media.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Search.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Search.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Forms.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Card.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Data.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Web.Api.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Ninject.Web.Common.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.OpenAccess.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.OpenAccess.40.Extensions.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Reporting.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Reporting.OpenXmlRendering.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Reporting.XpsRendering.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.ReportViewer.WebForms.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Amazon.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.AmazonCloudSearch.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.AmazonCloudSearch.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Packaging.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Audit.Elasticsearch.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Azure.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Azure.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.DataIntelligenceConnector.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Diagnostics.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Diagnostics.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Frontend.Taxonomies.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Comments.Impl.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Comments.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Comments.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Dashboard.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Dashboard.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.MarketoConnector.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.MarketoConnector.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Model.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Mvc.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Mvc.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.RecurrentRules.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Resources.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Resources.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SalesForceConnector.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SalesForceConnector.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Documents.Impl.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Documents.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Events.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Statistics.Impl.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Statistics.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Connectivity.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Connectivity.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Personalization.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Personalization.Impl.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Personalization.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.RecycleBin.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.RecycleBin.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.DropboxLibraries.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.DropboxLibraries.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Documents.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.ContentModules.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.ContentModules.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Ecommerce.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Ecommerce.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.EloquaConnector.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Forums.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Forums.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Search.Impl.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Search.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Search.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Authentication.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Authentication.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SharepointConnector.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SharepointConnector.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SitemapGenerator.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Net.Http.Formatting.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Http.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\System.Web.Http.WebHost.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Contracts.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Module.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Module.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.Zip.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Thunder.CodeSync.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Translations.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Translations.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Utilities.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SiteSync.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.SiteSync.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Notifications.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Notifications.Impl.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Notifications.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.RecycleBin.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.RecycleBin.Impl.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.RecycleBin.Impl.dll.config
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Web.UI.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Controls.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Data.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.Fixed.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.Core.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.Flow.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Windows.Zip.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Telerik.Sitefinity.Services.Statistics.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\Twitterizer2.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\AngleSharp.xml
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\de\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\es\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\fr\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\it\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ja\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ko\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ru\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\zh-Hans\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\zh-Hant\Microsoft.OData.Core.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\de\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\es\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\fr\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\it\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ja\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ko\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ru\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\zh-Hans\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\zh-Hant\Microsoft.OData.Edm.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\de\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\es\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\fr\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\it\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ja\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ko\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\ru\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\zh-Hans\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\zh-Hant\Microsoft.Spatial.resources.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.pdb
