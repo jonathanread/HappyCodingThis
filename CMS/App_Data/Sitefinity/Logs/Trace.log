@@ -1,75 +1,401 @@
 ----------------------------------------
-Timestamp: 9/14/2017 5:35:49 PM
+Timestamp: 9/15/2017 8:22:22 PM
 
-Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Libraries.Data.OpenAccessLibrariesProvider'. User: 'Anonymous'. StackTrace: '
-Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
-Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
-Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
-Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
-Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
-Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
-Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
-Telerik.Sitefinity.Web.SitefinityHttpModule: Void <Init>b__2(System.Object)
-System.Threading.Tasks.Task: Void Execute()
-System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
-System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
-System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
-System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
-System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+Message: Operation: 'ApplicationRestart'. Parameters: 'flags:Default;sendRestartApplicationSystemMessage:True'. Reason: 'StaticModulesUpdate|Synchronization|Operation:Install'. User: 'jread@progress.com'. StackTrace: '
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Services.Web.Services.ModulesService: Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel ExecuteStaticModuleOperation(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Services.Web.Services.ModuleOperation)
+Telerik.Sitefinity.Services.Web.Services.ModulesService: Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel Execute(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Services.Web.Services.ModuleOperation)
+unknown: System.Object SyncInvokeExecute(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage11(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.ServiceModel.Dispatcher.ChannelHandler: Void OnAsyncReceiveComplete(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 9/14/2017 5:38:56 PM
+Timestamp: 9/15/2017 8:23:56 PM
 
-Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Security.Data.OpenAccessProfileProvider'. User: 'Anonymous'. StackTrace: '
-Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
-Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
-Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
-Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
-Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
-Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
-Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
-Telerik.Sitefinity.Web.SitefinityHttpModule: Void <Init>b__2(System.Object)
-System.Threading.Tasks.Task: Void Execute()
-System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
-System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
-System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
-System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
-System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+Message: Operation: 'ApplicationRestart'. Parameters: 'flags:Default;sendRestartApplicationSystemMessage:True'. Reason: 'StaticModulesUpdate|Warmup|Operation:Install'. User: 'jread@progress.com'. StackTrace: '
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Services.Web.Services.ModulesService: Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel ExecuteStaticModuleOperation(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Services.Web.Services.ModuleOperation)
+Telerik.Sitefinity.Services.Web.Services.ModulesService: Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel Execute(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Services.Web.Services.ModuleOperation)
+unknown: System.Object SyncInvokeExecute(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage11(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.ServiceModel.Dispatcher.ChannelHandler: Void OnAsyncReceiveComplete(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 9/14/2017 5:40:39 PM
+Timestamp: 9/15/2017 8:50:49 PM
 
-Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'Anonymous'. StackTrace: '
-Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
-Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator: Void EnsureModelReset()
-Telerik.Sitefinity.Data.Metadata.OpenAccessMetaDataProvider: Void CommitTransaction(Boolean)
-DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_258aa8809319473d82af2333bff67212: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__36(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
-Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
-Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
-DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_258aa8809319473d82af2333bff67212: Void CommitTransaction(Boolean)
-DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_258aa8809319473d82af2333bff67212: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__35(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
-Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
-Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
-DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_258aa8809319473d82af2333bff67212: Void CommitTransaction()
-Telerik.Sitefinity.Data.ManagerBase`1: Void SaveChanges(System.String)
-Telerik.Sitefinity.Publishing.PublishingPoints.PublishingPointFactory: Void CreatePublishingPointDataItem(System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Publishing.Model.IDefinitionField], Telerik.Sitefinity.Publishing.Model.IPublishingPoint, Telerik.Sitefinity.Data.Metadata.MetadataManager)
-Telerik.Sitefinity.Forums.ForumsModule: Void CreateForumPublishingPoint()
-Telerik.Sitefinity.Publishing.PublishingModule: Void Bootstrapper_Initialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
-System.EventHandler`1: Void Invoke(System.Object, TEventArgs)
-Telerik.Sitefinity.Abstractions.Bootstrapper: Void OnInitialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
-Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
-Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
-Telerik.Sitefinity.Web.SitefinityHttpModule: Void <Init>b__2(System.Object)
-System.Threading.Tasks.Task: Void Execute()
-System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
-System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
-System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
-System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
-System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-15 08:50:49
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/15/2017 8:50:49 PM
+
+Message: The page 'http://hct.local/' failed to warmup with error: The remote server returned an error: (500) Internal Server Error.. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/15/2017 8:50:49 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/15/2017 8:55:41 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-15 08:55:41
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/15/2017 8:55:45 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 3.7270191 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/15/2017 8:55:45 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 4 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:15:52 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 06:15:52
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:15:53 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.9551383 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:15:53 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:26:59 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 06:26:59
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:27:04 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 5.1551447 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:27:04 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 5 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:49:58 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 06:49:58
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:50:04 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 5.7555899 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:50:04 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 6 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:51:47 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 06:51:47
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:51:48 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.8088005 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:51:48 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:55:12 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 06:55:12
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:55:13 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.9965309 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:55:13 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:55:51 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 06:55:51
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:55:52 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.7641525 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 6:55:52 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:00:21 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 07:00:21
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:00:22 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.778095 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:00:22 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:01:20 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 07:01:20
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:01:21 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.8415501 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:01:21 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:02:49 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 07:02:49
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:02:50 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.8295189 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:02:50 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:05:28 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 07:05:28
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:05:29 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.995685 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:05:29 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:07:41 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 07:07:41
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:07:42 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.7973588 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:07:42 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:13:08 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 07:13:08
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:13:09 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.7981895 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:13:09 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:16:21 PM
+
+Message: Warmup 'Startup - 1 URLs' started at 2017-09-16 07:16:21
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:16:22 PM
+
+Message: The page 'http://hct.local/' has been warmed up in 0.8462854 seconds with User-Agent ''. Requested URL: http://hct.local/
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/16/2017 7:16:22 PM
+
+Message: Warmup 'Startup - 1 URLs' finished in 1 seconds
 
 
 ----------------------------------------

@@ -432,3 +432,5 @@ C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCod
 C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache
 C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.dll
 C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\obj\Debug\SitefinityWebApp.pdb
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\SitefinityWebApp.ResourcePackages.HappyCodingThis.dll
+C:\Users\jread\OneDrive - Progress Software Corporation\Sitefinity Apps\HappyCodingThis\CMS\bin\SitefinityWebApp.ResourcePackages.HappyCodingThis.pdb

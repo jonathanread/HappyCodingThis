@@ -4,6 +4,11 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -1078,6 +1083,79 @@
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\animate.min.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\bootstrap.min.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\flexslider.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\flickity.min.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\ie.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\normalize.min.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\print.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\screen.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\css\styles.css" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\fonts\Stroke-Gap-Icons.svg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\article-01.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\article-02.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\article-03.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\article-04.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\article-05.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\article-06.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\crew-blaz-robar.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\crew-dude.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\crew-mary-lou.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\crew-peter-finlan.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\dd-arrow.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\android-chrome-144x144.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\android-chrome-192x192.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\android-chrome-36x36.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\android-chrome-48x48.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\android-chrome-72x72.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\android-chrome-96x96.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-114x114.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-120x120.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-144x144.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-152x152.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-180x180.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-57x57.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-60x60.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-72x72.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-76x76.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon-precomposed.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\apple-touch-icon.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\browserconfig.xml" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\favicon-16x16.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\favicon-194x194.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\favicon-32x32.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\favicon-96x96.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\favicon.ico" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\mstile-144x144.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\mstile-150x150.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\mstile-310x150.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\mstile-310x310.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\mstile-70x70.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\safari-pinned-tab.svg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\freebie-03.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\freebie-04.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\hero-bg-01.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\hero-bg-02.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\hero-bg-03.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\landio-freebie.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\sedna-freebie.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\stats-bg.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\synthetica-logo%402x.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\synthetica-logo.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\texture-shapes-bg.png" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\video-cover.jpg" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\bootstrap.min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\flickity.pkgd.min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\jquery-1.11.2.min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\jquery.flexslider-min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\jquery.waypoints.min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\modernizr-2.8.3-respond-1.4.2.min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\retina.min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\scripts-min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\scripts.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\toucheffects-min.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\video-min.js" />
     <Content Include="Silverlight.js" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Public\Services\Thunder\ThunderService.svc" />
@@ -1205,6 +1283,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\fonts\Stroke-Gap-Icons.eot" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\fonts\Stroke-Gap-Icons.ttf" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\fonts\Stroke-Gap-Icons.woff" />
+    <Content Include="ResourcePackages\HappyCodingThis\assets\dist\images\favicon\manifest.json" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
