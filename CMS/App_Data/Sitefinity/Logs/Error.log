@@ -1,78 +1,18 @@
 ----------------------------------------
-Timestamp: 9/15/2017 8:21:02 PM
+Timestamp: 10/4/2017 11:53:13 AM
 
-Message: HandlingInstanceID: d51e3d8d-665b-469a-b72b-98f7e246989a
+Message: HandlingInstanceID: c2b0f6e9-2f4e-4e15-896e-fb83cf0f74b8
 An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
 -------------------------------------------------------------------------------------------------------------
-09/15/2017 16:21:02
-Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000004 that no longer exists. The most probable reason is that it has been deleted by another user.
-Source : Unity_ILEmit_DynamicClasses
-Help link : 
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
-HResult : -2146233088
-Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_fd79e3cf856c49fbbe912dc80cbd516a.GetTemplate(Guid id)
-   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
-   at Telerik.Sitefinity.Fluent.Pages.PageTemplateFacade.LoadPageTemplate(Guid templateId)
-   at Telerik.Sitefinity.Fluent.Pages.PageTemplateFacade..ctor(AppSettings appSettings, Guid pageId)
-   at Telerik.Sitefinity.Modules.Pages.Web.Services.PageTemplatesService.BatchDeletePageTemplateInternal(String[] Ids, String deletedLanguage)
-   at SyncInvokeBatchDeletePageTemplates(Object , Object[] , Object[] )
-   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
-   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
-
-Additional Info:
-
-MachineName : NBWFHJREAD
-TimeStamp : 9/15/2017 8:21:02 PM
-FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-131499794453892878
-ThreadIdentity : 
-WindowsIdentity : IIS APPPOOL\HappyCodingThis
-Requested URL : http://hct.local/Sitefinity/Services/Pages/PageTemplatesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=Telerik.Sitefinity.Modules.Pages.PageManager&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageTemplate&provider=OpenAccessDataProvider&skip=0&take=50&filter=
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 90000
-
-Severity: Error
-
-Title:Enterprise Library Exception Handling
-
-Machine: NBWFHJREAD
-
-App Domain: /LM/W3SVC/2/ROOT-1-131499794453892878
-
-ProcessId: 11720
-
-Process Name: c:\windows\system32\inetsrv\w3wp.exe
-
-Thread Name: 
-
-Win32 ThreadId:1908
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 9/15/2017 8:44:15 PM
-
-Message: HandlingInstanceID: fed2df71-7724-4fd6-b919-6e9db75f52d4
-An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
--------------------------------------------------------------------------------------------------------------
-09/15/2017 16:44:15
-Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+10/04/2017 07:53:13
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
 Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
 Source : Unity_ILEmit_DynamicClasses
 Help link : 
 Data : System.Collections.ListDictionaryInternal
 TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
 HResult : -2146233088
-Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_3c90af0da6674bae816b37290af36e6e.GetTemplate(Guid id)
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
    at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
    at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
    at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
@@ -85,12 +25,12 @@ Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_3c90af0da667
 Additional Info:
 
 MachineName : NBWFHJREAD
-TimeStamp : 9/15/2017 8:44:15 PM
-FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-3-131499818205811746
+TimeStamp : 10/4/2017 11:53:13 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
 ThreadIdentity : 
 WindowsIdentity : IIS APPPOOL\HappyCodingThis
-Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1505508255046
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507117992834
 
 
 Category: ErrorLog
@@ -105,33 +45,33 @@ Title:Enterprise Library Exception Handling
 
 Machine: NBWFHJREAD
 
-App Domain: /LM/W3SVC/2/ROOT-3-131499818205811746
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
 
-ProcessId: 11720
+ProcessId: 49796
 
 Process Name: c:\windows\system32\inetsrv\w3wp.exe
 
 Thread Name: 
 
-Win32 ThreadId:43872
+Win32 ThreadId:20380
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 9/15/2017 8:44:15 PM
+Timestamp: 10/4/2017 11:53:13 AM
 
-Message: HandlingInstanceID: 0982c18d-ab49-4c7e-8571-54fa8b2e8fcd
+Message: HandlingInstanceID: 850aa76e-5a1c-4e3e-9ce5-ae2cfca73c32
 An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
 -------------------------------------------------------------------------------------------------------------
-09/15/2017 16:44:15
-Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+10/04/2017 07:53:13
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
 Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
 Source : Unity_ILEmit_DynamicClasses
 Help link : 
 Data : System.Collections.ListDictionaryInternal
 TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
 HResult : -2146233088
-Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_3c90af0da6674bae816b37290af36e6e.GetTemplate(Guid id)
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
    at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
    at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
    at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
@@ -144,12 +84,12 @@ Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_3c90af0da667
 Additional Info:
 
 MachineName : NBWFHJREAD
-TimeStamp : 9/15/2017 8:44:15 PM
-FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-3-131499818205811746
+TimeStamp : 10/4/2017 11:53:13 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
 ThreadIdentity : 
 WindowsIdentity : IIS APPPOOL\HappyCodingThis
-Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1505508254940
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507117992974
 
 
 Category: ErrorLog
@@ -164,47 +104,915 @@ Title:Enterprise Library Exception Handling
 
 Machine: NBWFHJREAD
 
-App Domain: /LM/W3SVC/2/ROOT-3-131499818205811746
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
 
-ProcessId: 11720
+ProcessId: 49796
 
 Process Name: c:\windows\system32\inetsrv\w3wp.exe
 
 Thread Name: 
 
-Win32 ThreadId:47124
+Win32 ThreadId:49548
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 9/15/2017 8:44:54 PM
+Timestamp: 10/4/2017 11:54:22 AM
 
-Message: HandlingInstanceID: 25bd1eec-76c5-40b3-8f6a-fb021973efe1
+Message: HandlingInstanceID: 427c9759-5328-456a-a26d-e1fb129dc60e
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 07:54:22
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 11:54:22 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507118062641
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:48380
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 11:54:22 AM
+
+Message: HandlingInstanceID: eecd03cc-d44a-4d91-b0ac-2b7169fc6223
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 07:54:22
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 11:54:22 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507118062838
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:47796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 11:54:39 AM
+
+Message: HandlingInstanceID: 62b3c5d4-ad8b-4c95-9747-a6b815a4873b
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 07:54:39
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 11:54:39 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507118079296
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:50160
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 12:20:10 PM
+
+Message: HandlingInstanceID: 44745b74-5650-450d-9168-967c6fed53de
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/04/2017 08:20:10
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Cannot perform runtime binding on a null reference
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_Mvc_Views_Layouts_HappyCodingThis_cshtml_HappyCodingThis_cshtml.Execute() in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\66b149b6\f45af680\App_Web_happycodingthis.cshtml#happycodingthis.cshtml.39f49bee.qcw1qq0s.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.RenderViewToString(ControllerContext context, String viewPath, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.GetLayoutTemplate(String templateName, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutVirtualFileResolver.Open(PathDefinition definition, String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.LayoutOutput(String path)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.ApplyToPage(Page page)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.PageInitializer.PreInitHandler(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 12:20:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : jread@progress.com
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41876
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 12:20:14 PM
+
+Message: HandlingInstanceID: 1b08a8c1-06cb-4b32-b6ac-3e3462fcc03a
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/04/2017 08:20:14
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Cannot perform runtime binding on a null reference
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_Mvc_Views_Layouts_HappyCodingThis_cshtml_HappyCodingThis_cshtml.Execute() in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\66b149b6\f45af680\App_Web_happycodingthis.cshtml#happycodingthis.cshtml.39f49bee.qcw1qq0s.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.RenderViewToString(ControllerContext context, String viewPath, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.GetLayoutTemplate(String templateName, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutVirtualFileResolver.Open(PathDefinition definition, String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.LayoutOutput(String path)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.ApplyToPage(Page page)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.PageInitializer.PreInitHandler(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 12:20:14 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : jread@progress.com
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41876
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 12:45:15 PM
+
+Message: HandlingInstanceID: a5d366d6-aa5b-4f87-9c5c-e6c68b484b74
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 08:45:15
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 12:45:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507121115458
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:48996
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 12:45:15 PM
+
+Message: HandlingInstanceID: 3523e91a-15db-4bc0-9234-3be877994008
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 08:45:15
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 12:45:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507121115735
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:48996
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 12:56:13 PM
+
+Message: HandlingInstanceID: e45e9492-9a45-4c49-bacb-7b57d4407029
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 08:56:13
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 12:56:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507121773369
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:36184
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 12:56:13 PM
+
+Message: HandlingInstanceID: 68d3234c-3b94-49b7-a5fa-ead0aac3b042
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 08:56:13
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 12:56:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507121773550
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:36184
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 1:05:57 PM
+
+Message: HandlingInstanceID: db02a1cc-0891-4de6-ae14-eb943658038b
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 09:05:57
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 1:05:57 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507122357646
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:42088
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 1:05:57 PM
+
+Message: HandlingInstanceID: 626ac629-26b6-4f50-a21f-7ac06cce2ffb
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 09:05:57
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 1:05:57 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507122357796
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:42088
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 1:25:41 PM
+
+Message: HandlingInstanceID: 9a272fad-452f-40b0-a227-7a18e32f4bfd
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 09:25:41
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 1:25:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507123541136
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:51924
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 1:25:41 PM
+
+Message: HandlingInstanceID: 223cd901-82ba-4dbc-a7e3-cd9913b509a0
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+10/04/2017 09:25:41
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageTemplate item with id f669d9a7-009d-4d83-bbbb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageTemplate GetTemplate(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_4f5f67f9de4145b09eee3771b4650cb8.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetTemplate(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.GetDefaultTemplateIdInternal(Boolean isBackend)
+   at SyncInvokeGetDefaultFrontendTemplateId(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : NBWFHJREAD
+TimeStamp : 10/4/2017 1:25:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131515914939161048
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\HappyCodingThis
+Requested URL : http://hct.local/Sitefinity/Services/Pages/PagesService.svc/Template/GetDefault/?unv_tstmp_prm=1507123541302
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: NBWFHJREAD
+
+App Domain: /LM/W3SVC/2/ROOT-1-131515914939161048
+
+ProcessId: 49796
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:51924
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/4/2017 5:03:53 PM
+
+Message: HandlingInstanceID: 0072d408-f978-49d1-bbdf-56aed6acca97
 An exception of type 'System.Web.HttpException' occurred and was caught.
 ------------------------------------------------------------------------
-09/15/2017 16:44:54
+10/04/2017 13:03:52
 Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-Message : Not found
-Source : Telerik.Sitefinity.Frontend
+Message : Server cannot append header after HTTP headers have been sent.
+Source : System.Web
 Help link : 
 WebEventCode : 0
 ErrorCode : -2147467259
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ProcessRequest(System.Web.HttpContext)
+TargetSite : Void SetHeader(System.String, System.String, Boolean)
 HResult : -2147467259
-Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+Stack Trace :    at System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   at Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values)
+   at Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthentication.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthentication.SitefinityCookieAuthenticationHandler.<Renew>d__2e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthentication.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.Cookies.CookieSaverMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapWhenMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.RelyingPartyMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.AnonymousUserMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.AccessControlMiddleware.<Invoke>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SecurityTokenServiceMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Extensions.SslOffloaderMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
 
 Additional Info:
 
 MachineName : NBWFHJREAD
-TimeStamp : 9/15/2017 8:44:54 PM
-FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-3-131499818205811746
-ThreadIdentity : jread@progress.com
+TimeStamp : 10/4/2017 5:03:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6524.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131516102070828554
+ThreadIdentity : Anonymous
 WindowsIdentity : IIS APPPOOL\HappyCodingThis
-Requested URL : http://hct.local/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+Requested URL : http://hct.local/appstatus?count=1
 
 
 Category: ErrorLog
@@ -219,66 +1027,15 @@ Title:Enterprise Library Exception Handling
 
 Machine: NBWFHJREAD
 
-App Domain: /LM/W3SVC/2/ROOT-3-131499818205811746
+App Domain: /LM/W3SVC/2/ROOT-1-131516102070828554
 
-ProcessId: 11720
-
-Process Name: c:\windows\system32\inetsrv\w3wp.exe
-
-Thread Name: 
-
-Win32 ThreadId:46248
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 9/16/2017 7:11:20 PM
-
-Message: HandlingInstanceID: 90de5ddf-0944-4e70-a8fd-6bf1634a070b
-An exception of type 'System.ApplicationException' occurred and was caught.
----------------------------------------------------------------------------
-09/16/2017 15:11:20
-Type : System.ApplicationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Warmup module execution failed. Actual err: Value cannot be null.
-Parameter name: uriString
-Source : 
-Help link : 
-Data : System.Collections.ListDictionaryInternal
-TargetSite : 
-HResult : -2146232832
-Stack Trace : The stack trace is unavailable.
-Additional Info:
-
-MachineName : NBWFHJREAD
-TimeStamp : 9/16/2017 7:11:20 PM
-FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-131500626690291620
-ThreadIdentity : Anonymous
-WindowsIdentity : IIS APPPOOL\HappyCodingThis
-Requested URL : http://127.0.0.1/
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 9010
-
-Severity: Warning
-
-Title:Enterprise Library Exception Handling
-
-Machine: NBWFHJREAD
-
-App Domain: /LM/W3SVC/2/ROOT-1-131500626690291620
-
-ProcessId: 77100
+ProcessId: 55920
 
 Process Name: c:\windows\system32\inetsrv\w3wp.exe
 
 Thread Name: 
 
-Win32 ThreadId:49268
+Win32 ThreadId:55720
 
 Extended Properties: 
 ----------------------------------------

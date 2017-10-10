@@ -163,24 +163,13 @@ Write(Html.StyleSheet(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/asse
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n\r\n</head>\r\n<body>\r\n");
+WriteLiteral("\r\n</head>\r\n<body>\r\n");
 
 WriteLiteral("    ");
 
             
-            #line 25 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 23 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
 Write(Html.Section("top"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 26 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.SfPlaceHolder("MainBody"));
 
             
             #line default
@@ -201,42 +190,33 @@ WriteLiteral(">\r\n                <div");
 
 WriteLiteral(" class=\"logo\"");
 
-WriteLiteral(">\r\n                    <a");
+WriteLiteral(">\r\n");
 
-WriteLiteral(" href=\"/index.html\"");
+WriteLiteral("                    ");
 
-WriteLiteral("><img");
+            
+            #line 28 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+               Write(Html.SfPlaceHolder("Logo"));
 
-WriteLiteral(" src=\"img/synthetica-logo.png\"");
-
-WriteLiteral(" alt=\"Synthetica Freebie\"");
-
-WriteLiteral("></a>\r\n                </div>\r\n                <div");
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n                </div>\r\n                <div");
 
 WriteLiteral(" class=\"primary-nav-wrapper\"");
 
-WriteLiteral(">\r\n                    <nav>\r\n                        <ul");
+WriteLiteral(">\r\n                    <nav>\r\n");
 
-WriteLiteral(" class=\"primary-nav\"");
+WriteLiteral("                        ");
 
-WriteLiteral(">\r\n                            <li><a");
+            
+            #line 32 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                   Write(Html.SfPlaceHolder("MainNavigation"));
 
-WriteLiteral(" href=\"#intro\"");
-
-WriteLiteral(">The collective</a></li>\r\n                            <li><a");
-
-WriteLiteral(" href=\"#team\"");
-
-WriteLiteral(">The crew</a></li>\r\n                            <li><a");
-
-WriteLiteral(" href=\"#articles\"");
-
-WriteLiteral(">Articles</a></li>\r\n                            <li><a");
-
-WriteLiteral(" href=\"#freebies\"");
-
-WriteLiteral(">Freebies</a></li>\r\n                        </ul>\r\n                    </nav>\r\n  " +
-"                  <div");
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n                    </nav>\r\n                    <div");
 
 WriteLiteral(" class=\"secondary-nav-wrapper\"");
 
@@ -275,16 +255,19 @@ WriteLiteral(">\r\n                        <ul");
 
 WriteLiteral(" class=\"search\"");
 
-WriteLiteral(">\r\n                            <li>\r\n                                <input");
+WriteLiteral(">\r\n                            <li>\r\n");
 
-WriteLiteral(" type=\"text\"");
+WriteLiteral("                                ");
 
-WriteLiteral(" id=\"search-input\"");
+            
+            #line 43 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                           Write(Html.SfPlaceHolder("Search"));
 
-WriteLiteral(" placeholder=\"Start typing then hit enter to search\"");
-
-WriteLiteral(">\r\n                            </li>\r\n                            <li>\r\n         " +
-"                       <a");
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n                            </li>\r\n                            <li>\r\n          " +
+"                      <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -306,7 +289,18 @@ WriteLiteral(" class=\"nav-toggle\"");
 WriteLiteral(" href=\"#\"");
 
 WriteLiteral("><span></span></a>\r\n                </div>\r\n            </div>\r\n        </div>\r\n " +
-"   </div>\r\n    <header");
+"   </div>\r\n");
+
+WriteLiteral("    ");
+
+            
+            #line 57 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+Write(Html.SfPlaceHolder("MainBody"));
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n    <header");
 
 WriteLiteral(" class=\"hero\"");
 
@@ -1706,32 +1700,22 @@ WriteLiteral(">Get started</a>\r\n                </div>\r\n            </div>\r
 
 WriteLiteral(" class=\"has-padding footer-bg\"");
 
-WriteLiteral(">\r\n        <div");
+WriteLiteral(">\r\n");
+
+WriteLiteral("        ");
+
+            
+            #line 610 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.SfPlaceHolder("Footer"));
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n        <div");
 
 WriteLiteral(" class=\"container\"");
 
 WriteLiteral(">\r\n            <div");
-
-WriteLiteral(" class=\"row\"");
-
-WriteLiteral(">\r\n                <div");
-
-WriteLiteral(" class=\"col-md-4 footer-branding\"");
-
-WriteLiteral(">\r\n                    <img");
-
-WriteLiteral(" class=\"footer-branding-logo\"");
-
-WriteLiteral(" src=\"img/synthetica-logo.png\"");
-
-WriteLiteral(" alt=\"Synthetica freebie html5 css3 template logo\"");
-
-WriteLiteral(">\r\n                    <p>A free website template created exclusively for <a");
-
-WriteLiteral(" href=\"http://tympanus.net/codrops/\"");
-
-WriteLiteral("><em>Codrops</em></a></p>\r\n                </div>\r\n            </div>\r\n          " +
-"  <div");
 
 WriteLiteral(" class=\"row\"");
 
@@ -1816,29 +1800,19 @@ WriteLiteral("><i");
 WriteLiteral(" class=\"fa fa-linkedin\"");
 
 WriteLiteral("></i></a></li>\r\n                        </ul>\r\n                    </div>\r\n      " +
-"              <ul");
-
-WriteLiteral(" class=\"footer-secondary-nav\"");
-
-WriteLiteral(">\r\n                        <li><p>A free website template created exclusively for" +
-" <a");
-
-WriteLiteral(" href=\"http://tympanus.net/codrops/\"");
-
-WriteLiteral("><em>Codrops</em></a></p></li>\r\n                    </ul>\r\n                </div>" +
-"\r\n            </div>\r\n        </div>\r\n    </footer>\r\n    <!-- END SECTION: Foote" +
-"r -->\r\n    ");
+"          </div>\r\n            </div>\r\n        </div>\r\n    </footer>\r\n    <!-- EN" +
+"D SECTION: Footer -->\r\n    ");
 
 WriteLiteral("\r\n");
 
             
-            #line 653 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 638 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
     
             
             #line default
             #line hidden
             
-            #line 653 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 638 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
      if (Html.ShouldRenderInlineEditing())
     {
         
@@ -1846,211 +1820,376 @@ WriteLiteral("\r\n");
             #line default
             #line hidden
             
-            #line 655 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 640 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
    Write(Html.Script(ScriptRef.MicrosoftAjax, "top"));
 
             
             #line default
             #line hidden
             
-            #line 655 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 640 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
                                                     
         
             
             #line default
             #line hidden
             
-            #line 656 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 641 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
    Write(Html.Script(ScriptRef.MicrosoftAjaxCore, "top"));
 
             
             #line default
             #line hidden
             
-            #line 656 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 641 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
                                                         
         
             
             #line default
             #line hidden
             
-            #line 657 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 642 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
    Write(Html.Script(ScriptRef.JQuery, "top"));
 
             
             #line default
             #line hidden
             
-            #line 657 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 642 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
                                              
-
         
             
             #line default
             #line hidden
             
-            #line 659 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-   Write(Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.jquery.ba-outside-events.min.js"), "top"));
+            #line 643 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(ScriptRef.JQueryUI,"top"));
 
             
             #line default
             #line hidden
             
-            #line 659 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-                                                                                                                                                                   
+            #line 643 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                              
         
             
             #line default
             #line hidden
             
-            #line 660 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 644 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
    Write(Html.Script(ScriptRef.KendoAll, "top"));
 
             
             #line default
             #line hidden
             
-            #line 660 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 644 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
                                                
         
             
             #line default
             #line hidden
             
-            #line 661 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 645 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
    Write(Html.Script(ScriptRef.KendoTimezones, "top"));
 
             
             #line default
             #line hidden
             
-            #line 661 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 645 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
                                                      
         
             
             #line default
             #line hidden
             
-            #line 662 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 646 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
    Write(Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.RequireJS.require.min.js"), "top"));
 
             
             #line default
             #line hidden
             
-            #line 662 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 646 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
                                                                                                                                                             
         
             
             #line default
             #line hidden
             
-            #line 663 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 647 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.jquery.ba-outside-events.min.js"), "top"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 647 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                                                                   
+       
+
+            
+            #line default
+            #line hidden
+WriteLiteral("        <script>\r\n                requirejs([ \'/ResourcePackages/HappyCodingThis/" +
+"assets/dist/js/flickity.pkgd.min.js\',\r\n                    \'/ResourcePackages/Ha" +
+"ppyCodingThis/assets/dist/js/video-v5.4.6.min.js\']);\r\n        </script>        \r" +
+"\n");
+
+            
+            #line 653 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+        
+            
+            #line default
+            #line hidden
+            
+            #line 653 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
    Write(Html.InlineEditingManager(false));
 
             
             #line default
             #line hidden
             
-            #line 663 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+            #line 653 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
                                          
+        
+            
+            #line default
+            #line hidden
+            
+            #line 654 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Section("bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 654 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                               
+        
+            
+            #line default
+            #line hidden
+            
+            #line 655 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/bootstrap.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 655 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                       
+        
+            
+            #line default
+            #line hidden
+            
+            #line 656 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/modernizr-2.8.3-respond-1.4.2.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 656 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                                           
+        
+            
+            #line default
+            #line hidden
+            
+            #line 657 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/retina.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 657 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                    
+        
+            
+            #line default
+            #line hidden
+            
+            #line 658 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/jquery.waypoints.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 658 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                              
+        
+            
+            #line default
+            #line hidden
+            
+            #line 659 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/scripts.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 659 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                 
+    }
+    else
+    {
+        
+            
+            #line default
+            #line hidden
+            
+            #line 663 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Section("bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 663 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                               
+
+        if (!SystemManager.IsDesignMode)
+        {
+            
+            
+            #line default
+            #line hidden
+            
+            #line 667 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+       Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/jquery-1.11.2.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 667 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                               
+        }
+        
+            
+            #line default
+            #line hidden
+            
+            #line 669 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/jquery-ui-v1.11.0.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 669 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                               
+        
+            
+            #line default
+            #line hidden
+            
+            #line 670 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/flickity.pkgd.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 670 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                           
+        
+            
+            #line default
+            #line hidden
+            
+            #line 671 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/video-v5.4.6.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 671 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                          
+        
+            
+            #line default
+            #line hidden
+            
+            #line 672 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/bootstrap.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 672 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                       
+        
+            
+            #line default
+            #line hidden
+            
+            #line 673 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/modernizr-2.8.3-respond-1.4.2.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 673 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                                           
+        
+            
+            #line default
+            #line hidden
+            
+            #line 674 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/retina.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 674 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                    
+        
+            
+            #line default
+            #line hidden
+            
+            #line 675 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/jquery.waypoints.min.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 675 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                              
+        
+            
+            #line default
+            #line hidden
+            
+            #line 676 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+   Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/scripts.js"), "bottom"));
+
+            
+            #line default
+            #line hidden
+            
+            #line 676 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
+                                                                                                                 
     }
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n    \r\n    <script");
-
-WriteLiteral(" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js\"");
-
-WriteLiteral("></script>\r\n    <script");
-
-WriteLiteral(" src=\"http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js\"");
-
-WriteLiteral("></script>\r\n    <script");
-
-WriteLiteral(" src=\"http://vjs.zencdn.net/5.4.6/video.min.js\"");
-
-WriteLiteral("></script>\r\n    <!-- jQuery local fallback -->\r\n    <script>\r\n\twindow.jQuery || d" +
-"ocument.write(\'<script src=\"js/min/jquery-1.11.2.min.js\"><\\/script>\')\r\n    </scr" +
-"ipt>\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 674 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.Section("bottom"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 675 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/bootstrap.min.js"), "bottom"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 676 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/modernizr-2.8.3-respond-1.4.2.min.js"), "bottom"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 677 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/retina.min.js"), "bottom"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 678 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/jquery.waypoints.min.js"), "bottom"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 679 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/flickity.pkgd.min.js"), "bottom"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 680 "..\..MVC\Views\Layouts\HappyCodingThis.cshtml"
-Write(Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/scripts.js"), "bottom"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n</body>\r\n</html>");
+WriteLiteral("\r\n  \r\n  \r\n</body>\r\n</html>");
 
         }
     }
