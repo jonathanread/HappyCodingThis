@@ -1,0 +1,156 @@
+@model SitefinityWebApp.Mvc.Models.CrewMembersExpertiseModel
+
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+
+@Html.Script(ScriptRef.KendoAll, "top")
+<div id="members">
+    <div class="row" style="border: none;" data-role="listview" data-template="memberTemplate" data-bind="source: membersSource">
+    </div>
+    <div class="row skillset" data-template="skillsetTemplate" data-bind="source: membersSource.aggregates()">
+        <div class="col-md-6">
+            <div class="bar-chart-wrapper">
+                <h5 class="bar-chart-text">Experience Design <span class="push-right"></span></h5>
+                <div class="bar-wrapper">
+                    <div class="bar" data-percentage="90%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-chart-wrapper">
+                <h5 class="bar-chart-text">HTML5/CSS3 <span class="push-right">95%</span></h5>
+                <div class="bar-wrapper">
+                    <div class="bar" data-percentage="95%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="bar-chart-wrapper">
+                <h5 class="bar-chart-text">Interactive Prototyping <span class="push-right">80%</span></h5>
+                <div class="bar-wrapper">
+                    <div class="bar" data-percentage="80%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-chart-wrapper">
+                <h5 class="bar-chart-text">Visual Design <span class="push-right">90%</span></h5>
+                <div class="bar-wrapper">
+                    <div class="bar" data-percentage="90%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(initCrewMembers);
+
+    function initCrewMembers() {
+        var viewModel = kendo.observable({
+            membersSource: new kendo.data.DataSource({
+                transport: {
+                    read: {
+                        url: "/api/crew/members?$expand=Image",
+                        dataType: "json"
+                    }
+                },
+                schema: {
+                    data: "value",
+                    total: function (e) {
+                        if (e.type === "read") {
+                            totalCrewMembers = e.response.length;
+                        }
+                    }
+                },
+                aggregate: [
+                    { field: "VisualDesignExperience", aggregate: "sum" },
+                    { field: "VisualDesignExperience", aggregate: "count" },
+                    { field: "PrototypingExperience", aggregate: "sum" },
+                    { field: "PrototypingExperience", aggregate: "count" },
+                    { field: "HtmlCssExperience", aggregate: "sum" },
+                    { field: "HtmlCssExperience", aggregate: "count" },
+                    { field: "UxExperience", aggregate: "sum" },
+                    { field: "UxExperience", aggregate: "count" }
+                ]
+            }),
+            totalCrewMembers: 0,
+            skillsets: {},
+            calculatePercent: function (points) {
+                return (points / (this.totalCrewMembers * 10)) * 100 + "%";
+            }
+        });
+
+        kendo.bind($("#members"), viewModel);
+    }
+</script>
+<script id="memberTemplate" type="text/x-kendo-tmpl">
+    <div class="col-md-3 col-sm-6 col-xs-12" style="box-sizing: border-box">
+        <article class="crew-member" style="background-image: url('#=Image.Url#')">
+            <figure>
+                <figcaption class="overlay">
+                    <h2>#: Name #</h2>
+                    <p>#: Bio #</p>
+                    <div class="crew-socials">
+                        <ul>
+                            <li>
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </figcaption>
+            </figure>
+        </article>
+    </div>
+</script>
+<script id="skillsetTemplate" type="text/x-kendo-tmpl">
+     <div class="col-md-6">
+        <div class="bar-chart-wrapper">
+            <h5 class="bar-chart-text">Visual Design <span class="push-right">#= kendo.toString(VisualDesignExperience.sum / (VisualDesignExperience.count * 10), 'p') #</span></h5>
+            <div class="bar-wrapper">
+                <div class="bar" data-percentage="#= kendo.toString(VisualDesignExperience.sum / (VisualDesignExperience.count * 10) * 100, 'n') #%">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="bar-chart-wrapper">
+            <h5 class="bar-chart-text">HTML5/CSS3 <span class="push-right">#= kendo.toString(HtmlCssExperience.sum / (HtmlCssExperience.count * 10), 'p') #</span></h5>
+            <div class="bar-wrapper">
+                <div class="bar" data-percentage="#= kendo.toString(HtmlCssExperience.sum / (HtmlCssExperience.count * 10) * 100, 'n') #%">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="bar-chart-wrapper">
+            <h5 class="bar-chart-text">Interactive Prototyping <span class="push-right">#= kendo.toString(PrototypingExperience.sum / (PrototypingExperience.count * 10), 'p') #</span></h5>
+            <div class="bar-wrapper">
+                <div class="bar" data-percentage="#= kendo.toString(PrototypingExperience.sum / (PrototypingExperience.count * 10) * 100, 'n') #%">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="bar-chart-wrapper">
+            <h5 class="bar-chart-text">Experience Design <span class="push-right">#= kendo.toString(UxExperience.sum / (UxExperience.count * 10), 'p') #</span></h5>
+            <div class="bar-wrapper">
+                <div class="bar" data-percentage="#= kendo.toString(UxExperience.sum / (UxExperience.count * 10) * 100, 'n') #%">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+
+

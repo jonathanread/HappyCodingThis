@@ -1,0 +1,24 @@
+﻿<div>
+    <label>Caption</label>
+    <input id="iconClass" ng-model="properties.IconClass.PropertyValue" type="text" />
+</div>
+<div>
+    <label>Caption</label>
+    <input ng-model="properties.Caption.PropertyValue" type="text" />
+</div>
+<div>
+    <label><input type="checkbox" 
+                  ng-model="properties.UseNewsCount.PropertyValue" 
+                  ng-true-value="'True'" ng-false-value="'False'" 
+                  ng-checked="properties.UseNewsCount.PropertyValue === 'True'" /> Use Count of News Articles (All)</label>
+</div>
+<div>
+    <label><input type="checkbox" 
+                  ng-model="properties.UseBlogCount.PropertyValue"
+                  ng-true-value="'True'" ng-false-value="'False'" 
+                  ng-checked="properties.UseBlogCount.PropertyValue === 'True'" /> Use Number of Blog Post (All Blogs)</label>
+</div>
+<div>
+    <label>Number of Accolades</label>
+    <input type="number" ng-model="properties.NumberOfAccolades.PropertyValue" />
+</div>

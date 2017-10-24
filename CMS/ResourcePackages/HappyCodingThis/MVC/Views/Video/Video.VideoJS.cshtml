@@ -1,0 +1,31 @@
+@model Telerik.Sitefinity.Frontend.Media.Mvc.Models.Video.VideoViewModel
+
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "head", false)
+
+@{
+    var videoUrl = Model.Item.Fields.MediaUrl;
+    var videoWidth = Model.AspectRatio.ToLowerInvariant() == "auto" ? string.Empty : string.Format("width={0}", Model.Width);
+    var videoHeight = Model.AspectRatio.ToLowerInvariant() == "auto" ? string.Empty : string.Format("height={0}", Model.Height);
+}
+
+<div class="@Model.CssClass">
+    <h2>
+        <span >@Model.Item.Fields.Title</span>
+    </h2>
+
+    <div class="video-player">
+        <video class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
+               poster='@(Model.Item.Fields.Thumbnail != null ? Model.Item.Fields.Thumbnail.Fields.MediaUrl : "")'
+               data-steup="{}"
+               controls="controls" 
+               @videoWidth @videoHeight>
+            <source src="@videoUrl" type='video/@Model.Item.Fields.Extension.Replace(".",string.Empty)''
+            <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+        </video>
+    </div>
+    <p>@Html.Raw(Model.Item.Fields.Description)</p>
+    
+</div>

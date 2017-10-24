@@ -1,0 +1,59 @@
+﻿@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+
+@if (Html.ShouldRenderInlineEditing())
+{
+
+    <script>
+        requirejs(['/ResourcePackages/HappyCodingThis/assets/dist/js/flickity.pkgd.min.js',
+            '/ResourcePackages/HappyCodingThis/assets/dist/js/video-v5.4.6.min.js']);
+    </script>
+}
+else
+{
+    @Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/flickity.pkgd.min.js"), "bottom")
+}
+
+<div class="@Model.CssClass">
+    <div class="carousel js-flickity">
+        @foreach (var item in Model.Items)
+        {
+            <div @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id) class="carousel-cell" style='background-image: url(@item.Fields.Image.Fields.MediaUrl;'>
+                <div class="hero-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1 class="wp1" @Html.InlineEditingFieldAttributes("Title", "ShortText") >@item.Fields.Title</h1>
+                                <a href="#intro" class="btn primary wp2" @Html.InlineEditingFieldAttributes("ButtonText", "ShortText") >@item.Fields.ButtonText</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 hero-intro-text wp3">
+                                <p @Html.InlineEditingFieldAttributes("AdditionalContent", "LongText") >@item.Fields.AdditionalContent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class='mouse-container'>
+        <a href="#intro">
+            <div class='mouse'>
+                <span class='scroll-down'></span>
+            </div>
+        </a>
+    </div>
+</div>

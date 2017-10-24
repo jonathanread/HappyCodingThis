@@ -941,8 +941,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Mvc\Controllers\MyTestWidgetController.cs" />
-    <Compile Include="Mvc\Models\MyTestWidget.cs" />
+    <Compile Include="Mvc\Controllers\AccoladeController.cs" />
+    <Compile Include="Mvc\Controllers\CrewMembersExpertiseController.cs" />
+    <Compile Include="Mvc\Models\AccoladeModel.cs" />
+    <Compile Include="Mvc\Models\CrewMembersExpertiseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -950,6 +952,7 @@
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Mvc\Scripts\Accolade\designerview-simple.js" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.svg" />
@@ -1065,6 +1068,9 @@
     <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\video-min.js" />
     <Content Include="ResourcePackages\HappyCodingThis\assets\dist\js\video-v5.4.6.min.js" />
     <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\container.html" />
+    <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\footer.html" />
+    <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\section.html" />
+    <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\header.html" />
     <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\grid-12.html" />
     <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\grid-2+3+2+3+2.html" />
     <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\grid-3+3+3+3.html" />
@@ -1078,6 +1084,12 @@
     <Content Include="ResourcePackages\HappyCodingThis\gruntfile.js" />
     <Content Include="ResourcePackages\HappyCodingThis\MVC\Scripts\Navigation\pills.js" />
     <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Navigation\NavigationView.Social.cshtml" />
+    <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Video\Video.VideoJS.cshtml" />
+    <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Crew\List.Member.Expertise.cshtml" />
+    <Content Include="Mvc\Views\CrewMembersExpertise\Default.cshtml" />
+    <Content Include="Mvc\Views\Accolade\Default.cshtml" />
+    <Content Include="Mvc\Views\Accolade\DesignerView.Simple.cshtml" />
+    <Content Include="Mvc\Views\Accolade\DesignerView.Simple.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1472,9 +1484,7 @@
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.woff" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.eot" />
-    <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Slider\List.SliderList.Rotator.cshtml" />
-    <Content Include="Mvc\Views\Shared\_LayoutPage1.cshtml" />
-    <Content Include="Mvc\Views\MyTestWidget\Index.cshtml" />
+    <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Slider\List.Rotator.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
