@@ -1,24 +1,33 @@
-﻿<div>
-    <label>Caption</label>
-    <input id="iconClass" ng-model="properties.IconClass.PropertyValue" type="text" />
+﻿<link href="~/ResourcePackages/HappyCodingThis/assets/dist/css/styles.css" />
+<div>
+    <label>Icon Class</label>
+    <input id="iconClass" type="text" />
 </div>
 <div>
     <label>Caption</label>
-    <input ng-model="properties.Caption.PropertyValue" type="text" />
+    <input ng-model="properties.Caption.PropertyValue" type="text" /> 
 </div>
 <div>
     <label><input type="checkbox" 
                   ng-model="properties.UseNewsCount.PropertyValue" 
-                  ng-true-value="'True'" ng-false-value="'False'" 
-                  ng-checked="properties.UseNewsCount.PropertyValue === 'True'" /> Use Count of News Articles (All)</label>
+                  ng-true-value="'True'" 
+				  ng-false-value="'False'"
+				  ng-disabled="properties.UseBlogCount.PropertyValue === 'True' || properties.NumberOfAccolades.PropertyValue !== null"
+                  ng-checked="properties.UseNewsCount.PropertyValue === 'True'"
+				  ng-change="checkBoxChange(properties.UseNewsCount.PropertyValue)" /> Use Count of News Articles (All)</label>
 </div>
 <div>
     <label><input type="checkbox" 
                   ng-model="properties.UseBlogCount.PropertyValue"
-                  ng-true-value="'True'" ng-false-value="'False'" 
-                  ng-checked="properties.UseBlogCount.PropertyValue === 'True'" /> Use Number of Blog Post (All Blogs)</label>
+                  ng-true-value="'True'" 
+				  ng-false-value="'False'" 
+				  ng-disabled="properties.UseNewsCount.PropertyValue === 'True' || properties.NumberOfAccolades.PropertyValue !== null"
+                  ng-checked="properties.UseBlogCount.PropertyValue === 'True'"
+				  ng-change="checkBoxChange(properties.UseBlogCount.PropertyValue)" /> Use Number of Blog Post (All Blogs)</label>
 </div>
 <div>
     <label>Number of Accolades</label>
-    <input type="number" ng-model="properties.NumberOfAccolades.PropertyValue" />
+    <input type="number" string-to-number 
+		   ng-model="properties.NumberOfAccolades.PropertyValue"
+		   ng-disabled="properties.UseNewsCount.PropertyValue === 'True' || properties.UseBlogCount.PropertyValue === 'True'" />
 </div>
