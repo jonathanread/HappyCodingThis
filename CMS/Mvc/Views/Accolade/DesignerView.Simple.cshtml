@@ -1,4 +1,4 @@
-﻿<link href="~/ResourcePackages/HappyCodingThis/assets/dist/css/styles.css" />
+﻿
 <div>
     <label>Icon Class</label>
     <input id="iconClass" type="text" />
@@ -12,7 +12,7 @@
                   ng-model="properties.UseNewsCount.PropertyValue" 
                   ng-true-value="'True'" 
 				  ng-false-value="'False'"
-				  ng-disabled="properties.UseBlogCount.PropertyValue === 'True' || properties.NumberOfAccolades.PropertyValue !== null"
+				  ng-disabled="properties.UseBlogCount.PropertyValue === 'True' || properties.NumberOfAccolades.PropertyValue > 0"
                   ng-checked="properties.UseNewsCount.PropertyValue === 'True'"
 				  ng-change="checkBoxChange(properties.UseNewsCount.PropertyValue)" /> Use Count of News Articles (All)</label>
 </div>
@@ -21,7 +21,7 @@
                   ng-model="properties.UseBlogCount.PropertyValue"
                   ng-true-value="'True'" 
 				  ng-false-value="'False'" 
-				  ng-disabled="properties.UseNewsCount.PropertyValue === 'True' || properties.NumberOfAccolades.PropertyValue !== null"
+				  ng-disabled="properties.UseNewsCount.PropertyValue === 'True' || properties.NumberOfAccolades.PropertyValue > 0"
                   ng-checked="properties.UseBlogCount.PropertyValue === 'True'"
 				  ng-change="checkBoxChange(properties.UseBlogCount.PropertyValue)" /> Use Number of Blog Post (All Blogs)</label>
 </div>

@@ -217,9 +217,8 @@
 		}).data("kendoDropDownList");
 
 		$scope.checkBoxChange = function (isChecked) {
-			debugger;
 			if (isChecked === 'True')
-				$scope.properties.NumberOfAccolades.PropertyValue = null;
+				$scope.properties.NumberOfAccolades.PropertyValue = '';
 		};
 
 		propertyService.get()
