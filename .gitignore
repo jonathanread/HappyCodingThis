@@ -1,7 +1,6 @@
-CMS/bin/*
-CMS/App_Data/Sitefinity/Logs/*
+**/bin
+CMS/App_Data/Sitefinity/Logs/**
 *.log
-CMS/App_Data/Sitefinity/Search/*
-CMS/obj/*
-HappyCodingThis.Sitefinity/bin/*
-HappyCodingThis.Sitefinity/obj/*
+CMS/App_Data/Sitefinity/Search/**
+**/obj
+

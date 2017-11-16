@@ -1,0 +1,73 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentListViewModel
+
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Web.DataResolving;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+<div class="container-fluid @Model.CssClass">
+	<div class="row">
+		@foreach (var item in Model.Items)
+		{
+			var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+
+			<div class="col-md-4">
+				<article @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id) class="article-post">
+					<a href="@navigateUrl">
+						<div class="article-image has-overlay" style="background-image: url(@item.Fields.PostImage.Fields.MediaUrl)">
+							@if (item.Fields.Featured)
+							{
+								<span class="featured-tag">Featured</span>
+							}
+						</div>
+						<figure>
+							<figcaption>
+								<h2 @Html.InlineEditingFieldAttributes("Title", "ShortText")>@item.Fields.Title</h2>
+								<p @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@Html.Raw(item.Fields.Summary)</p>
+							</figcaption>
+						</figure>
+					</a>
+
+					@if (item.Fields.Tags != null)
+					{
+						<ul @Html.InlineEditingFieldAttributes("Tags", "FlatTaxon") class="article-footer">
+							@foreach (var taxon in item.GetFlatTaxons("Tags"))
+							{
+								<li class="article-category">
+									<a href="/blog/-in-tags/tags/@taxon.UrlName.ToString()">@taxon.Title.ToString()</a>
+								</li>
+							}
+							<li class="article-comments">
+								@Html.CommentsCount((string)navigateUrl, item.DataItem)
+							</li>
+						</ul>
+					}
+				</article>
+			</div>
+
+
+
+			@*<div >
+
+
+					<div class="text-muted">
+						@item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
+						@Html.Resource("By")
+						@DataResolver.Resolve(item.DataItem, "Author", null)
+
+					</div>
+				</div>*@
+		}
+	</div>
+</div>
+
+@if (Model.ShowPager)
+{
+	@Html.Action("Index", "ContentPager", new
+{
+	currentPage = Model.CurrentPage,
+	totalPagesCount = Model.TotalPagesCount.Value,
+	redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate
+})
+}

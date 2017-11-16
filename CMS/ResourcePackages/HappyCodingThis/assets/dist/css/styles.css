@@ -2567,6 +2567,15 @@ div.mouse {
 	background-color: rgba(65,74,82,0.6);
 }
 
+.article-category {
+	border-right: solid 1px #E5E7E9;
+	padding-right: 5px;
+}
+
+.article-categor:last-child {
+	border-right: none;
+}
+
 .latest-articles select#inputArticle-Sort {
 	font-size: 13px;
 	width: 300px;
@@ -2912,9 +2921,12 @@ footer .footer-nav {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.stats-container .icon:before, 
+.stats-container .icon:before,
 .k-dropdown-wrap .icon:before,
-.k-item .icon:before {font-family: 'Stroke-Gap-Icons' !important}
+.k-item .icon:before {
+	font-family: 'Stroke-Gap-Icons' !important;
+}
+
 .icon-WorldWide:before {
 	content: '\e600';
 }

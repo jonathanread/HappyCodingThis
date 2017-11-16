@@ -19,13 +19,7 @@ namespace SitefinityWebApp
 
         private void Bootstrapper_Initialized(object sender, ExecutedEventArgs e)
         {
-            if (e.CommandName == "Bootstrapped")
-            {
-                System.Web.Mvc.RouteCollectionExtensions.MapRoute(System.Web.Routing.RouteTable.Routes, 
-                    "Classic", 
-                    "MyMvc/{controller}/{action}/", 
-                    new { controller = "MyTestWidget", action = "Index" });
-            }
+          
         }
 
         protected void Application_Error(object sender, EventArgs e)
