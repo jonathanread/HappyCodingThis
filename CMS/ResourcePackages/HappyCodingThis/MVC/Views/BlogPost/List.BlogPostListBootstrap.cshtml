@@ -15,7 +15,7 @@
 			<div class="col-md-4">
 				<article @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id) class="article-post">
 					<a href="@navigateUrl">
-						<div class="article-image has-overlay" style="background-image: url(@item.Fields.PostImage.Fields.MediaUrl)">
+						<div class="article-image has-overlay @(@item.Fields.PostImage == null ? "icon icon-Blog" : string.Empty)" style="background-image: url(@(item.Fields.PostImage != null ? item.Fields.PostImage.Fields.MediaUrl: string.Empty))">
 							@if (item.Fields.Featured)
 							{
 								<span class="featured-tag">Featured</span>
@@ -24,7 +24,8 @@
 						<figure>
 							<figcaption>
 								<h2 @Html.InlineEditingFieldAttributes("Title", "ShortText")>@item.Fields.Title</h2>
-								<p @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@Html.Raw(item.Fields.Summary)</p>
+								<p><i class="fa fa-calendar"></i>&nbsp;@item.GetDateTime("PublicationDate", "MMM d, yyyy, hh:mm tt")</p>
+								<p class="blogSummary" @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@Html.Raw(item.Fields.Summary)</p>
 							</figcaption>
 						</figure>
 					</a>
@@ -45,19 +46,6 @@
 					}
 				</article>
 			</div>
-
-
-
-			@*<div >
-
-
-					<div class="text-muted">
-						@item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
-						@Html.Resource("By")
-						@DataResolver.Resolve(item.DataItem, "Author", null)
-
-					</div>
-				</div>*@
 		}
 	</div>
 </div>

@@ -4,13 +4,16 @@
 @using Telerik.Sitefinity.Frontend.Navigation.Mvc.Models;
 @using Telerik.Sitefinity.Modules.Pages;
 
+<div class="share-footer">
+	<ul class="@Model.CssClass">
+		@foreach (var node in Model.Nodes)
+		{
+			@RenderRootLevelNode(node);
+		}
+	</ul>
+</div>
 
-<ul class="@Model.CssClass">
-    @foreach (var node in Model.Nodes)
-    {
-    @RenderRootLevelNode(node);
-    }
-</ul>
+
 
 @*Here is specified the rendering for the root level*@
 @helper RenderRootLevelNode(NodeViewModel node)

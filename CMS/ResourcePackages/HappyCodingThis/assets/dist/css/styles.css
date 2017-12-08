@@ -1908,6 +1908,8 @@ input, textarea {
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp10 {
 	visibility: hidden;
 }
+/*.sfPageEditor 
+.sfTemplateEditor*/
 
 .wp1 {
 	-webkit-animation-delay: .5s;
@@ -2355,7 +2357,7 @@ div.mouse {
 	.stats .stats-number {
 		text-align: left;
 	}
-
+#members .k-listview{background:none;}
 .crew article.crew-member {
 	position: relative;
 	overflow: hidden;
@@ -2458,6 +2460,7 @@ div.mouse {
 			height: 10px;
 			margin: 10px 0;
 			background-color: #7d9a7a;
+			width: 0%;
 		}
 
 	.skillset .bar-chart-figure {
@@ -2543,6 +2546,10 @@ div.mouse {
 	overflow: hidden;
 }
 
+.latest-articles article.article-post figure{
+	min-height: 332px;
+}
+
 	.latest-articles article.article-post .article-image {
 		position: relative;
 		overflow: hidden;
@@ -2553,6 +2560,12 @@ div.mouse {
 		background-position: center;
 		background-size: cover;
 	}
+
+.article-image.icon {
+	font-size: 160px;
+	color: #fff;
+	text-align:center;
+}
 
 .latest-articles .has-overlay:after, .latest-articles .freebies .has-overlay:after {
 	position: absolute;
