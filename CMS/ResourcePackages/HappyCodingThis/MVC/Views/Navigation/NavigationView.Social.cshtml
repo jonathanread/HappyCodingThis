@@ -4,7 +4,12 @@
 @using Telerik.Sitefinity.Frontend.Navigation.Mvc.Models;
 @using Telerik.Sitefinity.Modules.Pages;
 
-<div class="share-footer">
+<ul class="footer-share">
+	<li>
+		<a href="#" class="share-trigger"><i class="fa fa-share"></i>Share</a>
+	</li>
+</ul>
+<div class="share-dropdown">
 	<ul class="@Model.CssClass">
 		@foreach (var node in Model.Nodes)
 		{
@@ -18,71 +23,53 @@
 @*Here is specified the rendering for the root level*@
 @helper RenderRootLevelNode(NodeViewModel node)
 {
-    if (node.ChildNodes.Count > 0)
-    {
-<li class="dropdown">
-    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-        @node.Title
-        <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-        @RenderSubLevelsRecursive(node)
-    </ul>
-</li>
-    }
-    else
-    {
-<li class="@GetClass(node)"><a href="@node.Url" target="@node.LinkTarget">@node.Title</a></li>
-    }
+	if (node.ChildNodes.Count > 0)
+	{
+		@RenderSubLevelsRecursive(node)
+	}
+	else
+	{
+		<li><a href="@node.Url" target="@node.LinkTarget">@node.Title</a></li>
+	}
 }
 
 @*Here is specified the rendering for all child levels*@
 @helper RenderSubLevelsRecursive(NodeViewModel node)
 {
-    foreach (var childNode in node.ChildNodes)
-    {
-        if(childNode.ChildNodes.Count > 0)
-        {
-<li class="dropdown-submenu">
-    <a href="@childNode.Url" target="@childNode.LinkTarget">
-        @childNode.Title
-        <span class="right-caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-        @RenderSubLevelsRecursive(childNode)
-    </ul>
-</li>
-        }
-        else
-        {
-<li class="@GetClass(childNode)">
-    <a href="@childNode.Url" target="@childNode.LinkTarget">@GetSocialIcon(childNode.Title)</a>
-</li>
-        }
-    }
+	foreach (var childNode in node.ChildNodes)
+	{
+		if (childNode.ChildNodes.Count > 0)
+		{
+			<li class="">
+				<a href="@childNode.Url" target="@childNode.LinkTarget">
+					@childNode.Title
+				</a>
+				<ul class="">
+					@RenderSubLevelsRecursive(childNode)
+				</ul>
+			</li>
+		}
+		else
+		{
+			<li>
+				<a href="@childNode.Url" class="share-@childNode.Title.ToLower()" target="@childNode.LinkTarget">@GetSocialIcon(childNode.Title)</a>
+			</li>
+		}
+	}
 }
 
-@*Resolves the class that will be added for each node depending whether it is selected*@
-@helper GetClass(NodeViewModel node)
+
+@helper GetSocialIcon(string title)
 {
-
-    if (node.IsCurrentlyOpened)
-    {
-        @Html.Raw("active ");
-    }
-    else if (node.HasChildOpen)
-    {
-        @Html.Raw("active " + GetSocialIcon(node.Title));
-    }
+	switch (title.ToLower())
+	{
+		case "facebook":
+			@Html.Raw("<i class='fa fa-facebook'></i>");
+		break;
+		case "twitter":
+			@Html.Raw("<i class='fa fa-twitter'></i>");
+			break;
+		default:
+			break;
+	}
 }
-
-@helper GetSocialIcon(string title) { 
-switch (title.ToLower())
-{
-        case "facebook":
-            @Html.Raw("<i class='fa fa - twitter'></i>");
-            break;
-    default:
-        break;
-}
-    }

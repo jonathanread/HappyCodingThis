@@ -117,12 +117,8 @@ function initSite() {
 	} else {
 		setupWaypoints('wp1', 'fadeInUp', '80%');
 		setupWaypoints('.wp2, .wp3', 'fadeInUp', '95%');
-		//setupWaypoints('wp3', 'fadeInUp', '95%');
 		setupWaypoints('wp4', 'fadeInUp');
 		setupWaypoints('.wp5, .wp6, .wp7, .wp8', 'fadeIn');
-		//setupWaypoints('wp6', 'fadeIn');
-		//setupWaypoints('wp7', 'fadeIn');
-		//setupWaypoints('wp8', 'fadeIn');
 	}
 
 

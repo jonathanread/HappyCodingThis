@@ -2357,7 +2357,11 @@ div.mouse {
 	.stats .stats-number {
 		text-align: left;
 	}
-#members .k-listview{background:none;}
+
+#members .k-listview {
+	background: none;
+}
+
 .crew article.crew-member {
 	position: relative;
 	overflow: hidden;
@@ -2546,10 +2550,6 @@ div.mouse {
 	overflow: hidden;
 }
 
-.latest-articles article.article-post figure{
-	min-height: 332px;
-}
-
 	.latest-articles article.article-post .article-image {
 		position: relative;
 		overflow: hidden;
@@ -2564,7 +2564,7 @@ div.mouse {
 .article-image.icon {
 	font-size: 160px;
 	color: #fff;
-	text-align:center;
+	text-align: center;
 }
 
 .latest-articles .has-overlay:after, .latest-articles .freebies .has-overlay:after {
@@ -2832,7 +2832,6 @@ footer .footer-nav {
 
 		footer .footer-nav ul.footer-share > li {
 			display: inline-block;
-			margin-right: 50px;
 		}
 
 			footer .footer-nav ul.footer-share > li:last-child {
@@ -3738,6 +3737,16 @@ footer .footer-nav {
 
 .icon-Agenda:before {
 	content: '\e6c7';
+}
+
+@media screen and (min-width: 1024px) {
+	.latest-articles article.article-post {
+		min-height: 600px;
+	}
+
+		.latest-articles article.article-post figure {
+			min-height: 332px;
+		}
 }
 
 @media screen and (max-width: 1200px) {
