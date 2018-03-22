@@ -14,6 +14,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <EnhancerAssembly>$(SolutionDir)\packages\Telerik.DataAccess.Fluent.2016.2.822.1\tools\enhancer\enhancer.exe</EnhancerAssembly>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -1099,10 +1100,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\CommentHelpers.cs" />
+    <Compile Include="Helpers\MultisiteHelpers.cs" />
     <Compile Include="Mvc\Controllers\AccoladeController.cs" />
     <Compile Include="Mvc\Controllers\CrewMembersExpertiseController.cs" />
+    <Compile Include="Mvc\Controllers\SingleSliderController.cs" />
     <Compile Include="Mvc\Models\AccoladeModel.cs" />
     <Compile Include="Mvc\Models\CrewMembersExpertiseModel.cs" />
+    <Compile Include="Mvc\Models\SingleSliderModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1200,6 +1204,7 @@
     <Content Include="Mvc\Scripts\CrewMembersExpertise\crewMembersExpertise.js" />
     <Content Include="Mvc\Scripts\CrewMembersExpertise\designerview-simple.js" />
     <Content Include="Mvc\Scripts\Accolade\designerview-simple.js" />
+    <Content Include="Mvc\Scripts\SingleSlider\designerview-simple.js" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.svg" />
@@ -1329,6 +1334,7 @@
     <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\grid-8+4.html" />
     <Content Include="ResourcePackages\HappyCodingThis\GridSystem\Templates\grid-9+3.html" />
     <Content Include="ResourcePackages\HappyCodingThis\gruntfile.js" />
+    <Content Include="ResourcePackages\HappyCodingThis\MVC\Scripts\listEditor.js" />
     <Content Include="ResourcePackages\HappyCodingThis\MVC\Scripts\Navigation\pills.js" />
     <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Navigation\NavigationView.Social.cshtml" />
     <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Video\Video.VideoJS.cshtml" />
@@ -1533,8 +1539,12 @@
     </None>
     <Content Include="Mvc\Views\CrewMembersExpertise\DesignerView.Simple.cshtml" />
     <Content Include="Mvc\Views\CrewMembersExpertise\DesignerView.Simple.json" />
+    <Content Include="Mvc\Views\SingleSlider\Default.cshtml" />
+    <Content Include="Mvc\Views\SingleSlider\DesignerView.Simple.cshtml" />
+    <Content Include="Mvc\Views\SingleSlider\DesignerView.Simple.json" />
     <None Include="Properties\PublishProfiles\Arvixe.pubxml" />
     <None Include="Properties\PublishProfiles\happycodingthis.com - Web Deploy.pubxml" />
+    <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Lists\List.Custom.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

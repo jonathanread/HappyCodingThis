@@ -4,3 +4,4 @@ CMS/App_Data/Sitefinity/Logs/**
 CMS/App_Data/Sitefinity/Search/**
 **/obj
 
+/.vs/HappyCodingThis/**

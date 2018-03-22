@@ -1,0 +1,49 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentListViewModel
+@using Telerik.Sitefinity.Frontend.Lists.Mvc.Models;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+
+
+<div class="@Model.CssClass">
+	@foreach (var item in Model.Items)
+	{
+		<h3 @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)
+			@Html.InlineEditingFieldAttributes("Title", "ShortText")>
+			@item.Fields.Title
+		</h3>
+
+
+		<ul>
+			@foreach (var listItem in ((ListViewModel)item).ListItemViewModel.Items)
+			{
+				<li @Html.InlineEditingAttributes(Model.ProviderName, ((ListViewModel)item).ListItemViewModel.ContentType.FullName, (Guid)listItem.Fields.Id)>
+					<div @Html.InlineEditingFieldAttributes("Title", "ShortText")>
+						@listItem.Fields.Title
+					</div>
+				</li>
+			}
+		</ul>
+	}
+
+	@if (Html.ShouldRenderInlineEditing())
+	{
+		@Html.Script(ScriptRef.JQuery, "top")
+		@Html.Script(ScriptRef.JQueryUI, "top")
+		@Html.Script(ScriptRef.KendoAll, "top")
+		@Html.Script(ScriptRef.KendoTimezones, "top")
+		<div id="listItemEditor">
+			<a class="btn btn-default" id="newListItem" data-bind="click: newItemClick">Add New List Item</a>
+			<div id="dialog"
+				 data-role="dialog"
+				 data-title="New List Item"
+				 data-width="600"
+				 data-modal="false"
+				 data-actions="[{ text: 'Save', action: saveListItem, primary: true },{ text: 'Cancel', action: cancelListItem }]"
+				 data-bind="visible: isVisible,
+                            events: { close: onClose}">
+				<label for="title">Title</label><input name="title" id="title" ng-model="listItem.Title" />
+			</div>
+		</div>
+		<script src="~/ResourcePackages/HappyCodingThis/MVC/Scripts/listEditor.js"></script>
+	}
+</div>

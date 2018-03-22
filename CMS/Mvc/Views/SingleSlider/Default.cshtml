@@ -1,0 +1,7 @@
+﻿@model SitefinityWebApp.Mvc.Models.SingleSliderModel
+
+<div style="background: url(@(Model.Image != null ? Model.Image.Url : string.Empty))">
+    <h1>@Model.Title</h1>
+    <p>@Model.AdditionalContent</p>
+    <a class="btn btn-default" href="@Model.PageUrl">@Model.ButtonText</a>
+</div>

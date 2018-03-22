@@ -1906,7 +1906,7 @@ input, textarea {
 		}
 
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp10 {
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 /*.sfPageEditor 
 .sfTemplateEditor*/
