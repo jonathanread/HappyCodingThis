@@ -1,0 +1,155 @@
+@model Telerik.Sitefinity.Frontend.Media.Mvc.Models.DocumentsList.DocumentsListViewModel
+
+@using System;
+@using System.Linq;
+@using System.Runtime;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Media.Mvc.Models.DocumentsList;
+@using Telerik.Sitefinity.Libraries.Model;
+@using Telerik.Sitefinity.Modules.Libraries;
+@using Telerik.Sitefinity;
+
+<div class="@Model.CssClass">
+	<h1>Custom</h1>
+	<div class="sf-document-list sf-document-list--table">
+		@{ 
+			var grouped = Model.Items.GroupBy(i => i.Fields.Parent);
+			LibrariesManager manager = LibrariesManager.GetManager();
+			}
+		<ul>
+			@foreach (var g in grouped)
+			{
+				<li class="folder">
+					@((g.Key as Telerik.Sitefinity.Libraries.Model.DocumentLibrary).Title)
+					<ul>
+						@foreach (var i in g)
+						{
+							if (i.Fields.FolderId == null)
+							{
+								<li>
+									<a href="@HyperLinkHelpers.GetDetailPageUrl(i, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix)">
+										@DocExtensionIcon((i as DocumentItemViewModel).Extension)
+										@i.Fields.Title
+									</a> || <a href="@i.Fields.MediaUrl"><i class="fa fa-download"></i></a>
+								</li>
+							}
+						}
+						@{var items = g.Where(i => i.Fields.FolderId != null).GroupBy(i => i.Fields.FolderId);
+						}
+						@foreach (var item in items)
+						{
+							if (item != null && item.Key != null)
+							{
+								Telerik.Sitefinity.IFolder lib = manager.FindFolderById(Guid.Parse(item.Key.ToString()));
+								if (lib != null)
+								{
+									<li class="folder">
+										@lib.Title
+										<ul>
+											@foreach (var d in item)
+											{
+												<li>
+													<a href="@HyperLinkHelpers.GetDetailPageUrl(d, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix)">
+														@DocExtensionIcon((d as DocumentItemViewModel).Extension)
+														@d.Fields.Title
+													</a> || <a href="@d.Fields.MediaUrl"><i class="fa fa-download"></i></a>
+												</li>
+											}
+										</ul>
+									</li>
+								}
+							}
+						}
+					</ul>
+				</li>
+
+			}
+		</ul>
+	</div>
+</div>
+
+@helper DocExtensionIcon(string extension)
+{
+	switch (extension)
+	{
+		case "doc":
+		case "docx":
+			@:<i class="fas fa-file-word fa-lg"></i>
+			break;
+		case "pdf":
+			@:<i class="fas fa-file-pdf fa-lg"></i>
+			break;
+		case "ppt":
+			@:<i class="fas fa-file-powerpoint fa-lg"></i>
+			break;
+		case "jpg":
+		case "png":
+		case "bmp":
+			<i class="fas fa-image fa-lg"></i>
+			break;
+		default:
+			@:<i class="fas fa-file fa-lg"></i>
+			break;
+	}
+}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<style>
+	ul {
+		list-style-type: disc;
+		list-style-position: inside;
+	}
+
+	ul li {
+		list-style-type: disc;
+		list-style-position: inside;
+		line-height: 2.5em
+	}
+
+	ul li ul li {
+		list-style-type: circle;
+		list-style-position: inside;
+	}
+
+	ol {
+		list-style-type: decimal;
+		list-style-position: inside;
+	}
+
+	ul ul, ol ul {
+		list-style-type: circle;
+		list-style-position: inside;
+		margin-left: 15px;
+	}
+
+	ol ol, ul ol {
+		list-style-type: lower-latin;
+		list-style-position: inside;
+		margin-left: 15px;
+	}
+
+	li, ul li {
+		display: list-item;
+	}
+
+	li.folder {
+		list-style: none;
+	}
+
+	li.folder:before {
+		font-family: 'FontAwesome';
+		content: '\f07c';
+		margin: 0 5px 0 -15px;
+		color: #ccc;
+	}
+</style>
+@if (Model.ShowPager)
+{
+	@Html.Action("Index", "ContentPager", new
+	   {
+		  currentPage = Model.CurrentPage,
+		  totalPagesCount = Model.TotalPagesCount.Value,
+		  redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate
+	   })
+}
+
+

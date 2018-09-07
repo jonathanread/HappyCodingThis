@@ -905,15 +905,18 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\CommentHelpers.cs" />
+    <Compile Include="Helpers\LibrariesHelpers.cs" />
     <Compile Include="Helpers\MultisiteHelpers.cs" />
     <Compile Include="Mvc\Controllers\AccoladeController.cs" />
     <Compile Include="Mvc\Controllers\CrewMembersExpertiseController.cs" />
     <Compile Include="Mvc\Controllers\SeasonedContentController.cs" />
     <Compile Include="Mvc\Controllers\SingleSliderController.cs" />
+    <Compile Include="Mvc\Controllers\UserFileViewerController.cs" />
     <Compile Include="Mvc\Models\AccoladeModel.cs" />
     <Compile Include="Mvc\Models\CrewMembersExpertiseModel.cs" />
     <Compile Include="Mvc\Models\SeasonedContentModel.cs" />
     <Compile Include="Mvc\Models\SingleSliderModel.cs" />
+    <Compile Include="Mvc\Models\UserFileViewerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1018,6 +1021,8 @@
     <Content Include="Mvc\Scripts\Accolade\designerview-simple.js" />
     <Content Include="Mvc\Scripts\SeasonedContent\designerview-simple.js" />
     <Content Include="Mvc\Scripts\SingleSlider\designerview-simple.js" />
+    <Content Include="Mvc\Scripts\UserFileViewer\designerview-simple.js" />
+    <Content Include="Mvc\Scripts\UserFileViewer\documentsTreeview.js" />
     <Content Include="Mvc\Views\readme.txt" />
     <Content Include="Mvc\Views\Shared\readme.txt" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.css" />
@@ -1213,6 +1218,9 @@
     <Content Include="Mvc\Views\SeasonedContent\DesignerView.Simple.cshtml" />
     <Content Include="Mvc\Views\SeasonedContent\Default.cshtml" />
     <Content Include="Mvc\Views\SeasonedContent\DesignerView.Simple.json" />
+    <Content Include="Mvc\Views\UserFileViewer\DesignerView.Simple.cshtml" />
+    <Content Include="Mvc\Views\UserFileViewer\Index.cshtml" />
+    <Content Include="Mvc\Views\UserFileViewer\DesignerView.Simple.json" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Arvixe.pubxml" />
     <None Include="Properties\PublishProfiles\happycodingthis.com - Web Deploy.pubxml" />
@@ -1369,6 +1377,8 @@
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.woff" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\DocumentsList\List.DocumentsTableWithSubs.cshtml" />
+    <Content Include="ResourcePackages\HappyCodingThis\MVC\Views\Announcement\List.MyCustomList.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
