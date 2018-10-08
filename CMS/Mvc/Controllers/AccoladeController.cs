@@ -7,11 +7,12 @@ using SitefinityWebApp.Mvc.Models;
 using Telerik.Sitefinity.Modules.Blogs;
 using Telerik.Sitefinity.GenericContent.Model;
 using Telerik.Sitefinity.Modules.News;
+using Telerik.Sitefinity.Personalization;
 
 namespace SitefinityWebApp.Mvc.Controllers
 {
 	[ControllerToolboxItem(Name = "Accolade", Title = "Accolade", SectionName = "MvcWidgets")]
-	public class AccoladeController : Controller
+	public class AccoladeController : Controller, IPersonalizable
 	{
 		/// <summary>
 		/// Gets or sets the message.

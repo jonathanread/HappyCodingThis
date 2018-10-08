@@ -83,13 +83,13 @@
 		@Html.Script(ScriptRef.MicrosoftAjaxCore, "top")
 		@Html.Script(ScriptRef.JQuery, "top")
 		@Html.Script(ScriptRef.JQueryUI, "top")
-		@Html.Script(ScriptRef.KendoAll, "top")
+		@*@Html.Script(ScriptRef.KendoAll, "top")*@
 		@Html.Script(ScriptRef.KendoTimezones, "top")
 		@Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.RequireJS.require.min.js"), "top")
 		@Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.jquery.ba-outside-events.min.js"), "top")
 
 		<script>
-			requirejs(['/ResourcePackages/HappyCodingThis/assets/dist/js/video-v5.4.6.min.js']);
+			requirejs(['/ResourcePackages/HappyCodingThis/assets/dist/js/video-v5.4.6.min.js','https://kendo.cdn.telerik.com/2018.3.911/js/kendo.all.min.js']);
 		</script>
 		@Html.InlineEditingManager(false)
 		@Html.Section("bottom")
@@ -98,6 +98,7 @@
 		@Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/retina.min.js"), "bottom")
 		@Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/jquery.waypoints.min.js"), "bottom")
 		@Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/scripts.js"), "bottom")
+
 	}
 	else
 	{
@@ -114,6 +115,7 @@
 		@Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/retina.min.js"), "bottom")
 		@Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/jquery.waypoints.min.js"), "bottom")
 		@Html.Script(Url.WidgetContent("~/ResourcePackages/HappyCodingThis/assets/dist/js/scripts.js"), "bottom")
+		<script src="https://kendo.cdn.telerik.com/2018.3.911/js/kendo.all.min.js"></script>
 	}
 </body>
 </html>

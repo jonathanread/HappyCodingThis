@@ -6,11 +6,12 @@ using Telerik.Sitefinity.Mvc;
 using SitefinityWebApp.Mvc.Models;
 using Telerik.Sitefinity.Modules.Pages;
 using Telerik.Sitefinity.Web;
+using Telerik.Sitefinity.Personalization;
 
 namespace SitefinityWebApp.Mvc.Controllers
 {
 	[ControllerToolboxItem(Name = "CrewMembersExpertise", Title = "Crew Members Expertise", SectionName = "Telerik.Sitefinity.DynamicTypes.Model.Crew")]
-	public class CrewMembersExpertiseController : Controller
+	public class CrewMembersExpertiseController : Controller, IPersonalizable
 	{
 		public string SelectedItem { get; set; }
 
