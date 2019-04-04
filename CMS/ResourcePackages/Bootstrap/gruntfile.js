@@ -193,9 +193,9 @@ module.exports = function(grunt) {
             dist: {
                 src: ['assets/src/sitefinity/images/sprite/*.png', 'assets/src/' + projectAssetsFolder + '/images/sprite/*.png'],
                 dest: 'assets/src/sitefinity/images/sprite.png',
-                destCss: 'assets/src/sitefinity/sass/widgets/socialShare/_sf-sprite.scss',
+                destCss: 'assets/src/sitefinity/sass/components/sprite/_sf-sprite.scss',
                 imgPath: '../images/sprite.png',
-                cssTemplate: 'assets/src/sitefinity/sass/widgets/socialShare/sf-sprite.mustache'
+                cssTemplate: 'assets/src/sitefinity/sass/components/sprite/sf-sprite.mustache'
             }
         },
 

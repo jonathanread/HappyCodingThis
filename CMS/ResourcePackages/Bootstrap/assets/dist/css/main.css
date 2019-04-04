@@ -6197,41 +6197,17 @@ img.mfp-img {
 .icon-no-image:before {
   content: "\f002"; }
 
-.sf-icon-blogger {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -36px;
-  width: 16px;
-  height: 16px; }
-
 .sf-icon-comment {
   background-image: url(../images/sprite.png);
-  background-position: -32px -52px;
+  background-position: 0px -20px;
   width: 17px;
   height: 15px; }
 
-.sf-icon-delicious {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -20px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-digg {
-  background-image: url(../images/sprite.png);
-  background-position: -16px -20px;
-  width: 16px;
-  height: 16px; }
-
 .sf-icon-email {
   background-image: url(../images/sprite.png);
-  background-position: -49px -52px;
+  background-position: -17px -20px;
   width: 19px;
   height: 13px; }
-
-.sf-icon-facebook {
-  background-image: url(../images/sprite.png);
-  background-position: -36px -16px;
-  width: 16px;
-  height: 16px; }
 
 .sf-icon-feed {
   background-image: url(../images/sprite.png);
@@ -6239,57 +6215,9 @@ img.mfp-img {
   width: 20px;
   height: 20px; }
 
-.sf-icon-google {
-  background-image: url(../images/sprite.png);
-  background-position: -16px -36px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-linkedin {
-  background-image: url(../images/sprite.png);
-  background-position: -20px 0px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-mailto {
-  background-image: url(../images/sprite.png);
-  background-position: -52px 0px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-myspace {
-  background-image: url(../images/sprite.png);
-  background-position: -52px -16px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-reddit {
-  background-image: url(../images/sprite.png);
-  background-position: -52px -32px;
-  width: 16px;
-  height: 16px; }
-
 .sf-icon-remove {
   background-image: url(../images/sprite.png);
-  background-position: 0px -52px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-stumble-upon {
-  background-image: url(../images/sprite.png);
-  background-position: -32px -36px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-tumblr {
-  background-image: url(../images/sprite.png);
-  background-position: -36px 0px;
-  width: 16px;
-  height: 16px; }
-
-.sf-icon-twitter {
-  background-image: url(../images/sprite.png);
-  background-position: -16px -52px;
+  background-position: -20px 0px;
   width: 16px;
   height: 16px; }
 
@@ -6461,7 +6389,7 @@ pre {
   padding-top: 0; }
 
 .sf-pb-xxs, .sf-Gallery-next,
-.sf-Gallery-prev, .sf-share-button {
+.sf-Gallery-prev {
   padding-bottom: 0; }
 
 .sf-pl-xxs, [lang^="ar"] .checkbox label, [lang^="ar"] .radio label, [lang^="he"] .checkbox label, [lang^="he"] .radio label, [lang^="fa"] .checkbox label, [lang^="fa"] .radio label, [lang^="ku"] .checkbox label, [lang^="ku"] .radio label, [lang^="ur"] .checkbox label, [lang^="ur"] .radio label, [lang^="dv"] .checkbox label, [lang^="dv"] .radio label, [lang^="ps"] .checkbox label, [lang^="ps"] .radio label, [lang^="ha"] .checkbox label, [lang^="ha"] .radio label, [lang^="ks"] .checkbox label, [lang^="ks"] .radio label, [lang^="yi"] .checkbox label, [lang^="yi"] .radio label, [lang^="ar"] .checkbox input[type=checkbox], [lang^="he"] .checkbox input[type=checkbox], [lang^="fa"] .checkbox input[type=checkbox], [lang^="ku"] .checkbox input[type=checkbox], [lang^="ur"] .checkbox input[type=checkbox], [lang^="dv"] .checkbox input[type=checkbox], [lang^="ps"] .checkbox input[type=checkbox], [lang^="ha"] .checkbox input[type=checkbox], [lang^="ks"] .checkbox input[type=checkbox], [lang^="yi"] .checkbox input[type=checkbox], [lang^="ar"] .radio input[type=radio], [lang^="he"] .radio input[type=radio], [lang^="fa"] .radio input[type=radio], [lang^="ku"] .radio input[type=radio], [lang^="ur"] .radio input[type=radio], [lang^="dv"] .radio input[type=radio], [lang^="ps"] .radio input[type=radio], [lang^="ha"] .radio input[type=radio], [lang^="ks"] .radio input[type=radio], [lang^="yi"] .radio input[type=radio], .sf-Progress-page-title {
@@ -6483,7 +6411,7 @@ pre {
 .sf-p-xs {
   padding: 5px; }
 
-.sf-pt-xs, .sf-lang-selector a, .sf-site-selector a, .sf-site-selector span, .sf-site-selector strong, .sf-share-button {
+.sf-pt-xs, .sf-lang-selector a, .sf-site-selector a, .sf-site-selector span, .sf-site-selector strong {
   padding-top: 5px; }
 
 .sf-pb-xs, .sf-lang-selector a, .sf-site-selector a, .sf-site-selector span, .sf-site-selector strong {
@@ -6492,7 +6420,7 @@ pre {
 .sf-pl-xs {
   padding-left: 5px; }
 
-.sf-pr-xs, .sf-Comments-list .sf-Comments-list-author, .sf-share-button {
+.sf-pr-xs, .sf-Comments-list .sf-Comments-list-author {
   padding-right: 5px; }
 
 .sf-p-s {
@@ -6697,6 +6625,37 @@ pre {
     transform: scaleY(1);
     -webkit-transform: scaleY(1);
     background-color: #105ab5; } }
+
+.sf-Long-text:after {
+  clear: both; }
+
+.sf-Long-text:after, .sf-Long-text:before {
+  content: " ";
+  display: table; }
+
+.sf-icon-comment {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -20px;
+  width: 17px;
+  height: 15px; }
+
+.sf-icon-email {
+  background-image: url(../images/sprite.png);
+  background-position: -17px -20px;
+  width: 19px;
+  height: 13px; }
+
+.sf-icon-feed {
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 20px;
+  height: 20px; }
+
+.sf-icon-remove {
+  background-image: url(../images/sprite.png);
+  background-position: -20px 0px;
+  width: 16px;
+  height: 16px; }
 
 .sf-media .sf-img-thmb a {
   display: block;
@@ -7238,33 +7197,6 @@ div.k-event {
 
 .k-scheduler-agendaview .sf-event-type {
   display: none; }
-
-.sf-social-share li {
-  display: inline-block;
-  vertical-align: top; }
-
-.sf-social-share span {
-  display: inline-block; }
-
-.sf-share-button {
-  padding-left: 2px;
-  display: inline-block;
-  border: 1px solid #d3d3d3;
-  border-radius: 3px;
-  vertical-align: top;
-  font-size: 12px;
-  color: #000;
-  line-height: 1;
-  transition: background 0.2s ease; }
-  .sf-share-button:hover, .sf-share-button:focus {
-    text-decoration: none;
-    background: #efefef;
-    color: #000; }
-  .sf-share-button > span {
-    margin-top: -3px; }
-  .sf-share-button > strong {
-    vertical-align: top;
-    font-weight: 400; }
 
 .-sf-google-button {
   border-color: #D54F50;
